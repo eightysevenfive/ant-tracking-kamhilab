@@ -1,0 +1,14 @@
+Many animal behavior studies require digitizing the movement of animals in videos for
+further analyses. Much of the digitization in rodent research has been automated;
+however, automating this process for behavioral videos of ants present a challenge due
+to their small size. Therefore, to date, the collection of ant path data is often done
+manually by recording each point along the path. In this project, the primary objective is
+to develop a tool to automate the quantification of ant paths. Having such paths as
+usable data is useful in behavioral research on topics on such as [*]navigation and
+learning and memory. . To accomplish this task, we are in the process of training the
+object detection algorithm YOLOv4 on various videos of ants moving along a particular
+path. Once the algorithm works robustly and is modified to fit the constraints presented
+by videos of ants, it will be incorporated into a Graphical User Interface (GUI) using
+the wx library in Python. The GUI would allow researchers to upload a video and then
+collect the data produced by the program as a text file for analysis elsewhere. This tool
+could greatly hasten the research pipelines of researchers who employ ants.
