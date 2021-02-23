@@ -1,0 +1,7 @@
+Convert video to images
+
+ffmpeg -i "AL23.MP4" -r 10 -q:v 2 -f image2 al23_%d.jpeg
+
+The number 10 represents the fps
+Since there will be number such a al23_26.jpeg and al23_260.jpeg,
+we need a helper script to rename the files
