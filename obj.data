@@ -1,4 +1,4 @@
-classes=2
+classes=1
 train=darknet/data/train.txt
 valid=darknet/data/test.txt
 names=darknet/data/obj.names
